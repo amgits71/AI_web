@@ -27,7 +27,7 @@
 /* Общие стили для всего приложения */
 
 body {
-  background: #031b34;
+  background: #040e1c;
   padding: 0 2rem;
 }
 
@@ -72,7 +72,7 @@ ul li {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 62px;
   color: #ae67fa;
 }
 
@@ -97,7 +97,8 @@ h3 {
 
 p {
   font-size: 16px;
-  color: #fff;
+  color: #81afdd;
+  line-height: 27px;
 }
 
 .btn {
@@ -119,7 +120,7 @@ p {
 }
 
 .section {
-  max-width: 1169px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -128,18 +129,46 @@ p {
   padding: 1rem 0;
 }
 
+/*Стили для фона*/
+.blur-01 {
+  background: #002853;
+  filter: blur(300px);
+  border-radius: 1000px;
+  margin: auto;
+  position: absolute;  
+  z-index: -10;
+  top: -305px;
+  left: -336px;
+  width: 800px;
+  height: 800px;
+}
+
+.blur-03 {
+  background:#072D56;
+  filter: blur(200px);
+  border-radius: 900px;
+  margin: auto;
+  position: absolute;  
+  z-index: -10;
+  top: 800px;
+  left: 1127px;
+  width: 500px;
+  height: 200px;
+}
+
+
 /* Стили для Шапки */
 
 .header {
   display: flex;
-  max-width: 1169px;
+  max-width: 100%;
   margin: 0 auto;
   width: 100%;
-  padding: 2rem 0;
+  padding: 2rem 3rem;
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  background: #031b34;
+  background: #040e1c;
 }
 
 .header .header-logo {
@@ -176,7 +205,7 @@ p {
   display: flex;
   justify-content: space-between;
   column-gap: 1rem;
-  min-height: 60vh;
+  min-height: 50vh;
   margin: 14rem 0 3rem;
 }
 
@@ -186,11 +215,11 @@ p {
   flex-direction: column;
   justify-content: center;
   row-gap: 3rem;
-  width: 50%;
+  width: 100%;
 }
 
 .hero_section .hero_section__left .left__description {
-  color: #81afdd;
+  width: 90%;
 }
 
 .hero_section .hero_section__left .left__cta_buttons {
@@ -214,10 +243,24 @@ p {
 
 .hero_section .hero_section__right {
   height: 100%;
+  z-index: -10;
+  justify-content: center;
 }
 
 .hero_section .hero_section__right img {
-  width: 100%;
+  width: 150%;
+}
+
+.hero_section .hero_section__right .blur-02 {
+  display: flex;
+  background: #002853;
+  filter: blur(100px);
+  border-radius: 500px;
+  position: absolute;
+  z-index: -10;
+  width: 30%;
+  height: 40%;
+  margin: 5rem 3rem;
 }
 
 /* Секция брендов */

@@ -421,7 +421,6 @@ p {
   justify-content: center;
   width: 95%;
   column-gap: 2rem;
-  margin-bottom: 9rem;
 }
 
 .exceed_expectations .exceed_expectations_left {
@@ -470,12 +469,14 @@ p {
   line-height: 30px;
 }
 
+/* Стили для баннера */
+
 .CTA {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 3rem;
-  margin-bottom: 5rem; 
+  margin: 9rem 0; 
   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   border-radius: 10.72px
 }
@@ -509,6 +510,87 @@ p {
   margin-bottom: auto;
   padding: 1rem 5rem 1rem 5rem;
 }
+
+/* Стили для блога */
+.blog_section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6rem;
+  margin-bottom: 9rem;
+}
+
+.blog_section .blog_header {
+  width: 70%;
+}
+
+.blog_section .container_blog {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+
+.blog_section .container_blog .container_blog_text {
+  background-color: #042C54;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 1rem 2rem 0 2rem;
+}
+
+
+.blog_section .container_blog .container_blog_text .read_all_article {
+  margin: 2rem 0 1rem 0;
+}
+
+.blog_section .container_blog .article_title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.blog_section .container_blog .article_data {
+  color: #fff;
+}
+
+.blog_section .container_blog .read_all_article {
+  color: #fff;
+}
+
+.blog_section .container_blog .read_all_article_left {
+  padding: 14rem 0 1rem 0;
+  color: #fff;
+}
+
+.blog_section .container_blog .article_img {
+  width: 100%;
+}
+
+.blog_section .container_blog .container_blog_part {
+  width: 45%;
+}
+
+.blog_section .container_blog .container_blog_img_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+}
+
+.blog_section .container_blog .container_blog_part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.blog_section .container_blog_part_left .article_title_left {
+  width: 80%;
+}
+
+.blog_section .container_blog_part_left .article_data {
+  margin: 2rem 0 0;
+}
+
+
+
 
 /* Медиа запросы для адаптива */
 

@@ -148,19 +148,6 @@ p {
   height: 800px;
 }
 
-.blur-03 {
-  background:#072D56;
-  filter: blur(200px);
-  border-radius: 900px;
-  margin: auto;
-  position: absolute;  
-  z-index: -10;
-  top: 800px;
-  left: 1127px;
-  width: 500px;
-  height: 200px;
-}
-
 .blur-04 {
   background:#062547;
   filter: blur(200px);
@@ -278,6 +265,18 @@ p {
   width: 30%;
   height: 40%;
   margin: 5rem 3rem;
+}
+
+.hero_section .hero_section__right .blur-03 {
+  display: flex;
+  background:#072D56;
+  filter: blur(200px);
+  border-radius: 900px;
+  position: absolute;
+  z-index: -10;
+  margin: 35rem 0 0 25rem;
+  width: 20%;
+  height: 40%;
 }
 
 /* Секция брендов */

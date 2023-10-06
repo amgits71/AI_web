@@ -28,10 +28,18 @@
 
 body {
   background: #040e1c;
-  padding: 0 7rem;
+  overflow: auto;
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 7rem;
+}
+
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,6 +106,12 @@ h3 {
   font-family: "ManropeBold", sans-serif;
   color: #fff;
   font-size: 24px;
+}
+
+h4 {
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+  font-size: 14px;
 }
 
 p {
@@ -557,7 +571,7 @@ p {
 }
 
 .blog_section .container_blog .read_all_article_left {
-  padding: 14rem 0 1rem 0;
+  padding: 13rem 0 1rem 0;
   color: #fff;
 }
 
@@ -589,8 +603,75 @@ p {
   margin: 2rem 0 0;
 }
 
+/* Стили для footer */
 
+.footer_section .container_footer_main {
+  background: #031B34;
+}
 
+.footer_text {
+  color: #fff;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.footer_section .container_footer_main .container_footer_main_top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 0;
+  row-gap: 5rem;
+}
+
+.footer_section .container_footer_main .container_footer_main_top .footer_header {
+  text-align: center;
+  width: 70%;
+}
+
+.footer_section .container_footer_main .container_footer_main_top .button-demo {
+  padding: 2rem 5rem;
+  border: 1px solid;
+}
+
+.footer_section .container_footer_main .container_footer_main_bottom {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5rem;
+}
+
+.footer_section .container_footer_main .footer_logo {
+  margin: 0rem 0rem 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.footer_section .container_footer_main_bottom .footer_logo .footer_text {
+  width: 60%;
+}
+
+.footer_logo .link__name {
+  width: 30%;
+}
+
+.footer_section .container_footer_main_bottom .container_footer_side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8rem;
+  padding-bottom: 5rem;
+}
+
+.footer_section .container_footer_main_bottom .container_footer_side .column_footer_side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.footer_section .copyright {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
 
 /* Медиа запросы для адаптива */
 

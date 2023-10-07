@@ -37,6 +37,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 0 7rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer {
@@ -223,7 +225,7 @@ p {
   display: flex;
   justify-content: space-between;
   column-gap: 1rem;
-  min-height: 60vh;
+  min-height: 50vh;
   margin: 14rem 0 3rem;
 }
 
@@ -232,8 +234,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 3rem;
-  width: 50%;
+  row-gap: 2rem;
+  width: 70%;
+}
+
+.hero_section .hero_section__left img {
+  width: 40%;
 }
 
 .hero_section .hero_section__left .left__description {
@@ -259,6 +265,18 @@ p {
   border-radius: 0 4px 4px 0;
 }
 
+.hero_section .hero_section__left .left__social_approve {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.hero_section .hero_section__left .signup_content {
+  font-size: 12px;
+  padding: 1rem 0;
+  color: #fff;
+}
+
 .hero_section .hero_section__right {
   height: 100%;
   z-index: -10;
@@ -276,8 +294,8 @@ p {
   border-radius: 500px;
   position: absolute;
   z-index: -10;
-  width: 30%;
-  height: 40%;
+  width: 20%;
+  height: 10%;
   margin: 5rem 3rem;
 }
 
@@ -290,7 +308,7 @@ p {
   z-index: -10;
   margin: 35rem 0 0 25rem;
   width: 20%;
-  height: 40%;
+  height: 10%;
 }
 
 /* Секция брендов */
@@ -571,7 +589,7 @@ p {
 }
 
 .blog_section .container_blog .read_all_article_left {
-  padding: 13rem 0 1rem 0;
+  padding: 12.5rem 0 1rem 0;
   color: #fff;
 }
 

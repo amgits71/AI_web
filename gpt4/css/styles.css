@@ -589,16 +589,12 @@ p {
 }
 
 .blog_section .container_blog .read_all_article_left {
-  padding: 12.5rem 0 1rem 0;
+  padding: 15.5rem 0 1rem 0;
   color: #fff;
 }
 
 .blog_section .container_blog .article_img {
   width: 100%;
-}
-
-.blog_section .container_blog .container_blog_part {
-  width: 45%;
 }
 
 .blog_section .container_blog .container_blog_img_text {
@@ -611,6 +607,10 @@ p {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+}
+
+.blog_section .container_blog .container_blog_part_left {
+  width: 100%;
 }
 
 .blog_section .container_blog_part_left .article_title_left {

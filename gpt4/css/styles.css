@@ -437,9 +437,9 @@ p {
   align-items: start;
 }
 
-.what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header {
+/* .what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header {
   width: 500px;
-}
+} */
 
 .what_is_chatgpt_section .what_is_chatgpt_section__middle a {
   color: #ff8a71;
@@ -538,11 +538,12 @@ p {
   justify-content: center;
   width: 95%;
   column-gap: 2rem;
+  align-items: flex-end;
+  margin-top: 5rem;
 }
 
 .exceed_expectations .exceed_expectations_left {
   display: flex;
-  height: 100%;
   width: 100%;
 }
 
@@ -552,7 +553,6 @@ p {
 
 .exceed_expectations .exceed_expectations_right {
   width: 100%;
-  margin: 17rem 0 0 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -571,7 +571,7 @@ p {
 }
 
 .exceed_expectations .exceed_expectations_right .right__container_1 .right_header {
-  width: 60%;
+  width: 70%;
 }
 
 .exceed_expectations .exceed_expectations_right .right__container_2 {
@@ -610,7 +610,7 @@ p {
 
 .CTA .CTA_left .sign_up{
   color: #000000;
-  width: 70%;
+  width: 75%;
 }
 
 .CTA .CTA_right {
@@ -642,6 +642,7 @@ p {
   display: flex;
   flex-direction: row;
   column-gap: 3rem;
+  align-items: center;
 }
 
 .blog_section .container_blog .container_blog_text {
@@ -853,6 +854,10 @@ p {
     justify-content: center;
   }
 
+  .hero_section .hero_section__left .left__social_approve {
+    justify-content: center;
+  }
+
   .what_is_chatgpt_section {
     row-gap: 4rem;
   }
@@ -878,8 +883,8 @@ p {
 
   .exceed_expectations {
     width: 100%;
-    align-items: center;
     margin: 6rem 0;
+    align-items: center;
   }
 
   .exceed_expectations .exceed_expectations_right {
@@ -892,7 +897,7 @@ p {
   }
 
   .exceed_expectations .right__container_1 {
-    width: 70%;
+    width: 100%;
   }
   
   .exceed_expectations .exceed_expectations_right .right__container_1 .right_header {
@@ -957,7 +962,7 @@ p {
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
   p {
     font-size: 14px;
     line-height: 1.5;
@@ -972,6 +977,10 @@ p {
 
   h3 {
     font-size: 19px;
+  }
+
+  .page {
+    padding: 0 5rem;
   }
 
   .hero_section {
@@ -1017,9 +1026,53 @@ p {
     .container__content {
     line-height: 1.5;
   }
+
+  .exceed_expectations {
+    flex-direction: column;
+  }
+
+  .exceed_expectations .exceed_expectations_left {
+    width: 80%;
+  }
+
+  .exceed_expectations .exceed_expectations_right {
+    margin: 2rem 0 0 0;
+  }
+
+  .CTA {
+    margin: 3rem 0 7rem;
+  }
+
+  .CTA .CTA_right .cta_buttons_sign_up {
+    padding: 1rem 2rem;
+  }
+
+  .blog_section .blog_header {
+    width: 90%;
+  }
+
+  .blog_section .container_blog {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .blog_section .container_blog .container_blog_part {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .blog_section .container_blog .container_blog_part_left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer_section .container_footer_main .container_footer_main_top .button-demo {
+    padding: 1rem 2rem;
+  }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
   a {
     font-size: 12px;
   }
@@ -1033,7 +1086,23 @@ p {
   }
 
   h2 {
-    font-size: 19px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .page {
+    padding: 0 2rem;
+  }
+
+  .hero_section {
+    margin: 11rem 0 0 0;
+  }
+
+  .hero_section .hero_section__left .left__description {
+    width: 100%;
   }
 
   .hero_section .hero_section__left .left__cta_buttons input[type="text"] {
@@ -1058,5 +1127,97 @@ p {
 
   .future_here .future_here__right {
     row-gap: 2rem;
+  }
+
+  .footer_section .container_footer_main_bottom .container_footer_side {
+    flex-direction: column;
+  }
+
+  .header .header__menu .menu__close {
+    top: -100px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .hero_section .hero_section__left .left__social_approve {
+    flex-direction: column;
+  }
+
+  .hero_section .hero_section__left .left__social_approve img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .hero_section .hero_section__left .left__cta_buttons .btn {
+    font-size: 12px;
+  }
+
+  .hero_section .hero_section__right img {
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  .brands_section {
+    flex-direction: column;
+    padding: 0 0 3rem 0;
+  }
+
+  .what_is_chatgpt_section {
+    padding: 2rem;
+    margin: 4rem 0;
+  }
+
+  .middle__header {
+    line-height: 2rem;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__bottom {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .future_here {
+    margin: 4rem 0 2rem;
+  }
+
+  .exceed_expectations .exceed_expectations_right {
+    row-gap: 0;
+  }
+
+  .CTA {
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CTA .CTA_left .sign_up {
+    width: 100%;
+    text-align: center;
+  }
+
+  .CTA .CTA_left .ask_access_cta {
+    text-align: center;
+  }
+
+  .blog_section .blog_header {
+    text-align: center;
+  }
+
+  .blog_section .container_blog .article_title {
+    font-size: 15px;
+  }
+
+  .footer_section .container_footer_main .container_footer_main_bottom {
+    flex-direction: column;
+  }
+
+  .footer_logo .link__name {
+    width: 100%;
+  }
+
+  .footer_section .container_footer_main .footer_logo {
+    align-items: center;
+    margin: 0 0 0 0;
   }
 }

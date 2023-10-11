@@ -1047,7 +1047,8 @@ p {
   }
 
   .exceed_expectations .exceed_expectations_left {
-    width: 80%;
+    width: 60%;
+    justify-content: center;
   }
 
   .exceed_expectations .exceed_expectations_right {
@@ -1112,6 +1113,18 @@ p {
 
   .footer_section .container_footer_main_bottom .container_footer_side .column_footer_side {
     margin: 2rem;
+  }
+
+  .blog_section .container_blog .container_blog_img_text {
+    width: 80%;
+  }
+
+  .blog_section .container_blog .read_all_article_left {
+    padding: 2rem 0 1rem 0;
+  }
+  
+  .footer_section .container_footer_main .container_footer_main_top {
+    padding: 5rem 0;
   }
 }
 
